@@ -3,37 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Fanadesh</title>
     <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header class="header">
       <nav class="header__nav">
         <div class="container">
-          <div class="header__inner">
+          <div class="inner">
             <div>
-              <a href="index.html" class="header__list-link">Fanadesh</a>
-            </div>
-            <div class="burger-btn">
-              <span></span>
+              <div>
+                <a href="index.html" class="header__link">Fanadesh</a>
+              </div>
+              <button class="burger-btn">
+                <span></span>
+              </button>
             </div>
             <div>
               <ul class="header__list">
                 <li class="header__list-item">
-                  <a href="#" class="header__list-link"> Home </a>
+                  <a href="#" class="header__list-link header__link"> Home </a>
                 </li>
                 <li class="header__list-item">
-                  <a href="#" class="header__list-link"> About </a>
+                  <a href="#" class="header__list-link header__link"> About </a>
                 </li>
                 <li class="header__list-item">
-                  <a href="#" class="header__list-link"> Admision </a>
+                  <a href="#" class="header__list-link header__link">
+                    Admision
+                  </a>
                 </li>
                 <li class="header__list-item">
-                  <a href="#" class="header__list-link"> Why us </a>
+                  <a href="#" class="header__list-link header__link">
+                    Why us
+                  </a>
                 </li>
                 <li class="header__list-item">
-                  <a href="#" class="header__list-link"> Contact us </a>
+                  <a href="#" class="header__list-link header__link">
+                    Contact us
+                  </a>
                 </li>
               </ul>
             </div>
@@ -44,7 +57,7 @@
     <!-- Navigation Responsive -->
     <nav class="header__nav-res">
       <div class="container">
-        <div class="header__inner">
+        <div class="inner">
           <div>
             <a href="index.html" class="header__list-link">Fanadesh</a>
           </div>
@@ -71,32 +84,32 @@
       </div>
     </nav>
     <!-- Home Section -->
-    <section class="home">
+    <section class="home section">
       <div class="container">
-        <div class="about__inner">
-          <div class="home__block">
+        <div class="inner">
+          <div class="block">
             <h1 class="home__title">Best way to fund your study abroad</h1>
             <p class="home__text">
-              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
               minim veniam
             </p>
-            <button class="home__btn">Read more</button>
+            <button class="btn">Read more</button>
           </div>
-          <div class="home__block">
+          <div class="block">
             <img class="home__img img" src="images/home-img.png" alt="" />
           </div>
         </div>
       </div>
     </section>
     <!-- About Section -->
-    <section class="about">
+    <section class="about section">
       <div class="container">
-        <div class="about__inner">
-          <div class="about__block">
+        <div class="inner">
+          <div class="block">
             <img src="images/about.png" alt="" class="about__img img" />
           </div>
-          <div class="about__block">
+          <div class="block">
             <h4 class="title title--right">About our School</h4>
             <p class="text text-right">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -105,13 +118,13 @@
               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
               reprehenderit in voluptate
             </p>
-            <button class="btn btn-right">Read more</button>
+            <button class="btn btn-right btn--blue">Read more</button>
           </div>
         </div>
       </div>
     </section>
     <!-- Admission Section -->
-    <section class="admission">
+    <section class="admission section">
       <div class="container">
         <div class="inner">
           <div class="admission__block">
@@ -123,7 +136,7 @@
               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
               reprehenderit in voluptate
             </p>
-            <button class="btn">Read more</button>
+            <button class="btn btn--yellow">Read more</button>
           </div>
           <div class="admission__block">
             <img src="images/admission.png" alt="" class="admission__img img" />
@@ -132,13 +145,13 @@
       </div>
     </section>
     <!-- Learn Section -->
-    <section class="learn">
+    <section class="learn section">
       <div class="container">
-        <div class="learn__inner">
-          <div class="learn__block">
+        <div class="inner">
+          <div class="block">
             <img src="images/learn.png" alt="" class="learn__img img" />
           </div>
-          <div class="learn__block">
+          <div class="block">
             <h4 class="title title--right">Why learn on Fanadesh</h4>
             <p class="text text-right">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -147,7 +160,7 @@
               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
               reprehenderit in voluptate
             </p>
-            <button class="btn btn-right">Read more</button>
+            <button class="btn btn-right btn--blue">Read more</button>
           </div>
         </div>
       </div>
@@ -156,7 +169,7 @@
     <section class="daternine">
       <div class="container">
         <div class="inner">
-          <div class="daternine__block">
+          <div class="block">
             <h4 class="title">Datermine the right for you</h4>
             <p class="text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -165,10 +178,10 @@
               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
               reprehenderit in voluptate
             </p>
-            <button class="btn">Read more</button>
+            <button class="btn btn--yellow">Read more</button>
           </div>
-          <div class="daternine__block">
-            <img src="images/daternine.png" alt="" class="daternine__img img" />
+          <div class="block">
+            <img src="images/datermine.png" alt="" class="daternine__img img" />
           </div>
         </div>
       </div>
@@ -177,7 +190,7 @@
     <section class="contact">
       <div class="container">
         <div class="inner">
-          <div class="contact__block">
+          <div class="block">
             <h4 class="title">Contact Us</h4>
             <form action="" class="contact__form">
               <div class="form__block">
@@ -221,10 +234,10 @@
                   placeholder="Message"
                 ></textarea>
               </div>
-              <button class="form__btn">Send</button>
+              <button class="form__btn btn">Send</button>
             </form>
           </div>
-          <div class="contact__block">
+          <div class="block">
             <img class="img" src="images/contact.jpg" alt="" />
           </div>
         </div>
@@ -234,7 +247,9 @@
     <footer class="footer">
       <div class="container">
         <p class="footer__text">
-          <a href="" class="footer__link">Abuboriy Mirzayev</a>
+          <a href="https://github.com/AbduboriyMirzayev" class="footer__link"
+            >Abduboriy Mirzayev</a
+          >
         </p>
       </div>
     </footer>

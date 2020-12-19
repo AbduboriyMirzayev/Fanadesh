@@ -1,0 +1,190 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.inner {
+  display: flex;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #e9c012;
+  padding: 10px 0;
+  z-index: 99999;
+}
+.inner {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__list-item {
+  margin: 0 10px;
+}
+
+.header__list-link {
+  font-size: 18px;
+  font-weight: 400;
+}
+.header__link {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.home {
+  min-height: 100vh;
+  background-image: url(../images/hero-bg.png);
+  background-size: cover;
+  background-position: top center;
+  padding: 50px 0;
+}
+
+.block {
+  width: 100%;
+  padding: 0 10px;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+.home__title {
+  font-size: 50px;
+  font-weight: 700;
+  color: #fefeff;
+}
+
+.home__text {
+  color: #fefeff;
+  font-size: 18px;
+}
+
+.home__block {
+  width: 100%;
+}
+
+.btn {
+  padding: 15px 40px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn {
+  box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.7);
+  transform: translateY(-7px);
+}
+
+.header__nav-res {
+  display: none;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #151516;
+}
+
+.title--right {
+  text-align: right;
+}
+
+.text {
+  font-weight: 600;
+  color: #4e4f50;
+  margin: 30px 0 50px 0;
+  line-height: 150%;
+  letter-spacing: 1px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.btn-right {
+  display: block;
+  margin-left: auto;
+}
+
+.btn--yellow {
+  background-color: #fdd31d;
+  color: #fff;
+}
+
+.btn--blue {
+  background-color: #6ebca8;
+  color: #fefeff;
+}
+
+.contact__lable {
+  display: block;
+  margin: 15px 0 10px;
+}
+
+.form__block {
+  margin: 10px 0;
+}
+
+.form__inp {
+  width: 100%;
+  padding: 10px 15px;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid;
+  transform: 2s;
+}
+
+.form_inp:focus {
+  border-color: #e7b427;
+}
+
+.form__btn {
+  margin-top: 20px;
+  padding: 10px 60px;
+  background-color: #6ebca8;
+  color: #fff;
+}
+
+.footer {
+  padding: 20px 0;
+  text-align: center;
+  background-color: #e9c012;
+  margin-top: 30px;
+}
+
+.footer__link {
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
